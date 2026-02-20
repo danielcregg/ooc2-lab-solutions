@@ -33,7 +33,7 @@ public class Basic extends Application {
 //			buttonHello.setOnAction(event -> System.out.println("Hello!"));
 //			buttonHello.setOnAction(event -> labelHello.setText("Goodbye"));
 			buttonHello.setOnAction(event -> {
-				if (labelHello.getText() == "Hello Label") {
+				if (labelHello.getText().equals("Hello Label")) {
 					labelHello.setText("Goodbye");
 				} else {
 					labelHello.setText("Hello Label");

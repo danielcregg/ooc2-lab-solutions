@@ -12,7 +12,7 @@ public class Arithmetic {
 			System.out.println(result);
 		} catch(ArithmeticException artEx) {
 			System.out.println(artEx);
-			System.out.println("You caused an artihmetic exception!");	
+			System.out.println("You caused an arithmetic exception!");	
 		}
 		
 		// After exception is thrown the rest of the try block does not get executed

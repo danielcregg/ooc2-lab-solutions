@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class AskAQuestion {
     public static void main(String[] args) throws Exception {
-        String API_TOKEN = "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";
+        String API_TOKEN = System.getenv("HF_API_TOKEN") != null ? System.getenv("HF_API_TOKEN") : "YOUR_API_TOKEN_HERE";
         String modelId = "microsoft/DialoGPT-large";
         Scanner userInput = new Scanner(System.in);
         

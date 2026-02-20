@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        String API_TOKEN = "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";
+        String API_TOKEN = System.getenv("HF_API_TOKEN") != null ? System.getenv("HF_API_TOKEN") : "YOUR_API_TOKEN_HERE";
         String[] modelIds = {
                              "gpt2",
                              "gpt2-large",
@@ -30,7 +30,7 @@ public class Main {
             //System.out.println("Sending 'POST' request to URL : " + url);
             //System.out.println("Question: The goal of life is ...");
             //String input = "{\"inputs\":\"The goal of life is [MASK].\"}";
-            System.out.println("Modle ID: " + modelId);
+            System.out.println("Model ID: " + modelId);
             //System.out.println("\tQuestion: The capital of France is ...");
             //String input = "{\"inputs\":\"The capital of France is [MASK].\"}";
             

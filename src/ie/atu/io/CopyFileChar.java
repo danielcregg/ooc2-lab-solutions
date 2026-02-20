@@ -32,7 +32,7 @@ public class CopyFileChar {
 			}
 
 			System.out.println("------------------");
-			System.out.println("Copy completed sucessfully! See resources/output.txt");
+			System.out.println("Copy completed successfully! See resources/output.txt");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (InterruptedException e) {
@@ -53,6 +53,6 @@ public class CopyFileChar {
 				e.printStackTrace();
 			}
 		}
-		System.out.println("Finihsed reading and writing.");
+		System.out.println("Finished reading and writing.");
 	} // End main
 } // End Class

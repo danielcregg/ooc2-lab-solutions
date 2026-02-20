@@ -22,8 +22,8 @@ public class CopyFileCharBuffer {
 
 		try {
 			// Create file instances
-			inputFile = new File(".\\resources\\inputHamlet.txt");
-			outputFile = new File(".\\resources\\outputHamlet.txt");
+			inputFile = new File("./resources/inputHamlet.txt");
+			outputFile = new File("./resources/outputHamlet.txt");
 			// Create streams
 			charInputStream = new FileReader(inputFile);
 			charOutputStream = new FileWriter(outputFile);
@@ -42,7 +42,7 @@ public class CopyFileCharBuffer {
 				TimeUnit.MILLISECONDS.sleep(500);
 			}
 			System.out.println("---------------------------------");
-			System.out.println("Copy completed sucessfully! See resources/outputHamlet.txt");
+			System.out.println("Copy completed successfully! See resources/outputHamlet.txt");
 		} catch (NullPointerException nullPtExc) {
 			nullPtExc.printStackTrace();
 		} catch (FileNotFoundException fnfExc) {
