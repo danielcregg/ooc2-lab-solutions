@@ -97,3 +97,17 @@ local.properties
 hs_err_pid*
 
 # End of https://www.gitignore.io/api/java,eclipse
+
+### OS Generated ###
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### IDE ###
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
